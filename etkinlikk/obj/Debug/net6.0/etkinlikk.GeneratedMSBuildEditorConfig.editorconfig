@@ -1,0 +1,208 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = etkinlikk
+build_property.RootNamespace = etkinlikk
+build_property.ProjectDir = c:\Users\Ertan\Source\Repos\etkinlikk\etkinlikk\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Ertan\Source\Repos\etkinlikk\etkinlikk
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Account/Activation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY3RpdmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Account/EmailApproveReminder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFbWFpbEFwcHJvdmVSZW1pbmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Account/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/City/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/City/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/City/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/City/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/District/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpY3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/District/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpY3RcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/District/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpY3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/District/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpY3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/District/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpY3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Gender/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Gender/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Gender/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Gender/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Gender/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGroundDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZERldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGroundSubCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFN1YkNhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGroundSubCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFN1YkNhdGVnb3J5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGroundSubCategory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFN1YkNhdGVnb3J5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGroundSubCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFN1YkNhdGVnb3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGroundSubCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFN1YkNhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGround/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGround/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGround/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGround/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/ShowGround/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0dyb3VuZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/SubCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/SubCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/SubCategory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/SubCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/SubCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Ertan/Source/Repos/etkinlikk/etkinlikk/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7f8ot6nadx

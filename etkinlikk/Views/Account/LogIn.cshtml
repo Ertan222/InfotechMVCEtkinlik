@@ -1,0 +1,44 @@
+﻿@model LoginViewModel
+
+
+
+
+
+<div class="login-register-area pt-95 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12 ml-auto mr-auto">
+                <div class="login-register-wrapper">
+                    <div class="login-register-tab-list nav">
+                        <a class="active" data-toggle="tab">
+                            <h4> Log in </h4>
+                        </a>
+
+                    </div>
+
+
+                    <div class="login-form-container">
+                        <div class="login-register-form">
+                            <form asp-controller="Account" asp-action="LogIn" method="post">
+                                <div asp-validation-summary="All" class="text-danger"></div>
+                                <input type="text" name="Emaill" placeholder="Username" value="@Model.Emaill">
+                                <input type="password" name="Passwordd" placeholder="Password">
+                                <div class="button-box">
+                                    <div class="login-toggle-btn">
+                                        <input type="checkbox">
+                                        <label>Remember me</label>
+                                        <a asp-controller="Account" asp-action="ForgotPassword">&nbsp; Forget Password &nbsp; </a>
+                                        <a asp-controller="Account" asp-action="Register">&nbsp; Register &nbsp;</a>
+                                    </div>
+                                    <button type="submit"><span>Log in</span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
