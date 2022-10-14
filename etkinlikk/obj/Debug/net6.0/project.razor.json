@@ -16,38 +16,18 @@
   "RootNamespace": "etkinlikk",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Index.cshtml",
-      "TargetPath": "Views\\SubCategory\\Index.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Category\\Details.cshtml",
+      "TargetPath": "Views\\Category\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\Activation.cshtml",
-      "TargetPath": "Views\\Account\\Activation.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\EmailApproveReminder.cshtml",
+      "TargetPath": "Views\\Account\\EmailApproveReminder.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Create.cshtml",
-      "TargetPath": "Views\\Gender\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Delete.cshtml",
-      "TargetPath": "Views\\SubCategory\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Edit.cshtml",
-      "TargetPath": "Views\\SubCategory\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Index.cshtml",
-      "TargetPath": "Views\\District\\Index.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\City\\Index.cshtml",
+      "TargetPath": "Views\\City\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -56,8 +36,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\Register.cshtml",
-      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Index.cshtml",
+      "TargetPath": "Views\\Gender\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\City\\Create.cshtml",
+      "TargetPath": "Views\\City\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -66,53 +51,28 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Delete.cshtml",
-      "TargetPath": "Views\\District\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Index.cshtml",
-      "TargetPath": "Views\\Gender\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Delete.cshtml",
-      "TargetPath": "Views\\Gender\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Edit.cshtml",
-      "TargetPath": "Views\\District\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\City\\Delete.cshtml",
-      "TargetPath": "Views\\City\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGround\\Delete.cshtml",
       "TargetPath": "Views\\ShowGround\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Details.cshtml",
-      "TargetPath": "Views\\Gender\\Details.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Delete.cshtml",
+      "TargetPath": "Views\\District\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGround\\Index.cshtml",
-      "TargetPath": "Views\\ShowGround\\Index.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Create.cshtml",
-      "TargetPath": "Views\\SubCategory\\Create.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Index.cshtml",
+      "TargetPath": "Views\\District\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -121,8 +81,93 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\Activation.cshtml",
+      "TargetPath": "Views\\Account\\Activation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Create.cshtml",
+      "TargetPath": "Views\\Gender\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Category\\Edit.cshtml",
+      "TargetPath": "Views\\Category\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Category\\Index.cshtml",
+      "TargetPath": "Views\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGround\\Index.cshtml",
+      "TargetPath": "Views\\ShowGround\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Delete.cshtml",
+      "TargetPath": "Views\\SubCategory\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Edit.cshtml",
+      "TargetPath": "Views\\District\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Create.cshtml",
       "TargetPath": "Views\\District\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundSubCategory\\Details.cshtml",
+      "TargetPath": "Views\\ShowGroundSubCategory\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Delete.cshtml",
+      "TargetPath": "Views\\Gender\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Details.cshtml",
+      "TargetPath": "Views\\SubCategory\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Edit.cshtml",
+      "TargetPath": "Views\\Gender\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\ForgotPassword.cshtml",
+      "TargetPath": "Views\\Account\\ForgotPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Index.cshtml",
+      "TargetPath": "Views\\SubCategory\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGround\\Create.cshtml",
+      "TargetPath": "Views\\ShowGround\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -136,43 +181,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundSubCategory\\Delete.cshtml",
-      "TargetPath": "Views\\ShowGroundSubCategory\\Delete.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundSubCategory\\Index.cshtml",
+      "TargetPath": "Views\\ShowGroundSubCategory\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Edit.cshtml",
-      "TargetPath": "Views\\Gender\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGround\\Create.cshtml",
-      "TargetPath": "Views\\ShowGround\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundDetail\\Index.cshtml",
-      "TargetPath": "Views\\ShowGroundDetail\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\City\\Create.cshtml",
-      "TargetPath": "Views\\City\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Category\\Delete.cshtml",
-      "TargetPath": "Views\\Category\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Details.cshtml",
-      "TargetPath": "Views\\District\\Details.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Gender\\Details.cshtml",
+      "TargetPath": "Views\\Gender\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -181,18 +196,33 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\LogIn.cshtml",
-      "TargetPath": "Views\\Account\\LogIn.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Edit.cshtml",
+      "TargetPath": "Views\\SubCategory\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\District\\Details.cshtml",
+      "TargetPath": "Views\\District\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Category\\Edit.cshtml",
-      "TargetPath": "Views\\Category\\Edit.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundSubCategory\\Create.cshtml",
+      "TargetPath": "Views\\ShowGroundSubCategory\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundSubCategory\\Delete.cshtml",
+      "TargetPath": "Views\\ShowGroundSubCategory\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\City\\Delete.cshtml",
+      "TargetPath": "Views\\City\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Category\\Delete.cshtml",
+      "TargetPath": "Views\\Category\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -201,58 +231,28 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Category\\Details.cshtml",
-      "TargetPath": "Views\\Category\\Details.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundDetail\\Index.cshtml",
+      "TargetPath": "Views\\ShowGroundDetail\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundSubCategory\\Details.cshtml",
-      "TargetPath": "Views\\ShowGroundSubCategory\\Details.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Create.cshtml",
+      "TargetPath": "Views\\SubCategory\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\EmailApproveReminder.cshtml",
-      "TargetPath": "Views\\Account\\EmailApproveReminder.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Category\\Index.cshtml",
-      "TargetPath": "Views\\Category\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundSubCategory\\Index.cshtml",
-      "TargetPath": "Views\\ShowGroundSubCategory\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\SubCategory\\Details.cshtml",
-      "TargetPath": "Views\\SubCategory\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\ForgotPassword.cshtml",
-      "TargetPath": "Views\\Account\\ForgotPassword.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\City\\Index.cshtml",
-      "TargetPath": "Views\\City\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\ShowGroundSubCategory\\Create.cshtml",
-      "TargetPath": "Views\\ShowGroundSubCategory\\Create.cshtml",
+      "FilePath": "c:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\Views\\Account\\LogIn.cshtml",
+      "TargetPath": "Views\\Account\\LogIn.cshtml",
       "FileKind": "mvc"
     }
   ],
