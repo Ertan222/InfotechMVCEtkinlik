@@ -275,7 +275,14 @@
                                         <div class="cs-activity_right">
                                             <p class="cs-activity_text">@commentt.Userr.Emaill</p>
                                             <p class="cs-activity_text">@commentt.Content </p>
-                                            <p class="cs-activity_posted_by">@commentt.CommenttDate.ToLongDateString() @commentt.CommenttDate.ToLongTimeString()</p>
+                                            <p class="cs-activity_posted_by">@commentt.CommenttDate.ToLongDateString() @commentt.CommenttDate.ToLongTimeString()
+                                                @if (commentt.UserrID == Convert.ToInt32(User.FindFirst(claim => claim.Type == System.Security.Claims.ClaimTypes.Sid)?.Value))
+                                                                            {
+                                                    <form asp-controller="ShowGroundDetail" asp-action="DeleteComment" asp-route-id="@commentt.CommenttId">
+                                                        <button class="fa-solid fa-x" style="background-color:transparent; border:none"><i class="far fa-trash-alt" style="color:red"></i></button>
+                                                    </form>
+                                                }
+                                            </p>
                                         </div>
                                     </div>
 

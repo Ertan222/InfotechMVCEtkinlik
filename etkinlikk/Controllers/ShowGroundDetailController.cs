@@ -38,5 +38,18 @@ namespace etkinlikk.Controllers
             return RedirectToAction("", "ShowGroundDetail", new { id = id });
 
         }
+
+        [Authorize(Roles ="Member")]
+        [HttpPost]
+        public async Task<IActionResult> DeleteComment(int id)
+        {
+            var commentt = await _context.Commentts.FirstOrDefaultAsync(a => a.CommenttId == id);
+            _context.Commentts.Remove(commentt);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("", "ShowGroundDetail", new { id = commentt.ShowGroundID});
+
+        }
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xFmeqIeteDLLn6du/6PWBpKWecocgBUfXGcFJTQe9fA=",
+  "Hash": "aMPFevAPWzJdNUT7hZpmf8j+DVSaO7GAjlp+UQpYPI4=",
   "Source": "etkinlikk",
   "BasePath": "_content/etkinlikk",
   "Mode": "Default",
@@ -5370,6 +5370,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\wwwroot\\README.md",
+      "SourceId": "etkinlikk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ertan\\Source\\Repos\\etkinlikk\\etkinlikk\\wwwroot\\",
+      "BasePath": "_content/etkinlikk",
+      "RelativePath": "README.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\README.md"
     }
   ]
 }
