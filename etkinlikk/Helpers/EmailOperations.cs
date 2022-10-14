@@ -11,7 +11,7 @@ namespace etkinlikk.Helpers
         {
             System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
             mail.To.Add(toEmail);
-            mail.From = new System.Net.Mail.MailAddress("turkiyedb@hotmail.com");
+            mail.From = new System.Net.Mail.MailAddress("ertanturkiyedb@hotmail.com");
             mail.Subject = "turkiyedb.xyz Account Activation";
             mail.SubjectEncoding = System.Text.Encoding.UTF8;
 
@@ -31,7 +31,7 @@ namespace etkinlikk.Helpers
             client.Host = "smtp.office365.com";
             client.Port = 587;
             client.UseDefaultCredentials = false;
-            client.Credentials = new System.Net.NetworkCredential("turkiyedb@hotmail.com", "Sifre123!");
+            client.Credentials = new System.Net.NetworkCredential("ertanturkiyedb@hotmail.com", "Ertan123456");
             client.EnableSsl = true;
             //client.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network; 
             

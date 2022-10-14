@@ -2,43 +2,66 @@
 
 
 
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="ThemeMarch">
+    <!-- Site Title -->
+    <title>Login</title>
+    <link rel="stylesheet" href="~/client/assets/css/plugins/fontawesome.min.css">
+    <link rel="stylesheet" href="~/client/assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="~/client/assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="~/client/assets/css/style.css">
+</head>
 
-<div class="login-register-area pt-95 pb-100">
+<body>
+
+    <div class="cs-preloader cs-center">
+        <div class="cs-preloader_in"></div>
+        <span>Loading</span>
+    </div>
+    <div class="cs-height_90 cs-height_lg_80"></div>
+    <div class="cs-height_100 cs-height_lg_70"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-12 ml-auto mr-auto">
-                <div class="login-register-wrapper">
-                    <div class="login-register-tab-list nav">
-                        <a class="active" data-toggle="tab">
-                            <h4> Log in </h4>
-                        </a>
-
-                    </div>
+            <div class="col-xl-6 col-md-8 offset-xl-3 offset-md-2">
 
 
-                    <div class="login-form-container">
-                        <div class="login-register-form">
-                            <form asp-controller="Account" asp-action="LogIn" method="post">
-                                <div asp-validation-summary="All" class="text-danger"></div>
-                                <input type="text" name="Emaill" placeholder="Username" value="@Model.Emaill">
-                                <input type="password" name="Passwordd" placeholder="Password">
-                                <div class="button-box">
-                                    <div class="login-toggle-btn">
-                                        <input type="checkbox">
-                                        <label>Remember me</label>
-                                        <a asp-controller="Account" asp-action="ForgotPassword">&nbsp; Forget Password &nbsp; </a>
-                                        <a asp-controller="Account" asp-action="Register">&nbsp; Register &nbsp;</a>
-                                    </div>
-                                    <button type="submit"><span>Log in</span></button>
-                                </div>
-                            </form>
+                <form asp-controller="Account" asp-action="LogIn" class="cs-form_card cs-style1 cs-box_shadow cs-white_bg">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="cs-form_card_in">
+                        <h2 class="cs-form_title text-center">Login</h2>
+
+                        <div class="cs-height_30 cs-height_lg_30"></div>
+                        <div class="cs-form_field_wrap">
+                            <input name="Emaill" type="email" class="cs-form_field" placeholder="E-mail">
                         </div>
+                        <div class="cs-height_20 cs-height_lg_20"></div>
+                        <div class="cs-form_field_wrap">
+                            <input name="Passwordd" type="password" class="cs-form_field" placeholder="Password">
+                        </div>
+
+                        <div class="cs-height_20 cs-height_lg_20"></div>
+                        <input type="submit" class="cs-btn cs-style1 cs-btn_lg w-100" id="LogIn" value="LogIn">
+
+
+                        <div class="cs-height_30 cs-height_lg_30"></div>
+                        <div class="cs-form_footer text-center">Don't you have an account? <a asp-controller="Account" asp-action="Register">Register</a></div>
                     </div>
-
-
-                </div>
+                </form>
             </div>
         </div>
     </div>
-</div>
+    
+    <script src="~/client/assets/js/plugins/jquery-3.6.0.min.js"></script>
+    <script src="~/client/assets/js/plugins/isotope.pkg.min.js"></script>
+    <script src="~/client/assets/js/plugins/jquery.slick.min.js"></script>
+    <script src="~/client/assets/js/main.js"></script>
+
+</body>
+</html>

@@ -12,6 +12,7 @@ namespace etkinlikk.ViewModel
         public int? SelectedCategoryID { get; set; }
         public SubCategory SelectedSubCategory { get; set; }
         public int? SelectedCityID { get; set; }
+        public List<Likee> MyLikeesList{ get; set; }
 
 
     }

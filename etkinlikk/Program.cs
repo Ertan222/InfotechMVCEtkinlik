@@ -1,4 +1,5 @@
 using etkinlikk.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +13,26 @@ builder.Services.AddDbContext<EventDBContext>(options => options.UseSqlServer(co
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.Configure<Microsoft.AspNetCore.Mvc.CookieTempDataProviderOptions>(options =>
+{
+    options.Cookie.IsEssential = true;
+}); //biz koyduk
 
+
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = SameSiteMode.None;
+}); //biz koyduk
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+{
+    options.LoginPath = "/Account/LogIn";
+    options.AccessDeniedPath = "/Account/LogIn";
+    options.LogoutPath = "/Account/LogIn";
+
+}); //biz koyduk
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,9 +45,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseCookiePolicy();   
+app.UseAuthentication();
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(

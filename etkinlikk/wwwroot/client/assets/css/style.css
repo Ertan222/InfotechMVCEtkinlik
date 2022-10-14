@@ -2051,7 +2051,7 @@ kbd {
   color: rgba(115, 122, 153, 0.5);
 }
 
-.cs-form_field::-ms-input-placeholder {
+.cs-form_field:-ms-input-placeholder {
   color: rgba(115, 122, 153, 0.5);
 }
 
@@ -2063,7 +2063,7 @@ kbd {
   color: rgba(115, 122, 153, 0.5);
 }
 
-.cs-form_field::-ms-input-placeholder {
+.cs-form_field:-ms-input-placeholder {
   color: rgba(115, 122, 153, 0.5);
 }
 
@@ -5259,7 +5259,7 @@ li.menu-item-has-children
   color: rgba(255, 255, 255, 0.4);
 }
 
-.cs-footer_newsletter .cs-newsletter_input::-ms-input-placeholder {
+.cs-footer_newsletter .cs-newsletter_input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.4);
 }
 

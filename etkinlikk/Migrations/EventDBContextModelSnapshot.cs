@@ -502,6 +502,37 @@ namespace etkinlikk.Migrations
                         });
                 });
 
+            modelBuilder.Entity("etkinlikk.Models.Commentt", b =>
+                {
+                    b.Property<int>("CommenttId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommenttId"), 1L, 1);
+
+                    b.Property<DateTime>("CommenttDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(99999)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ShowGroundID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserrID")
+                        .HasColumnType("int");
+
+                    b.HasKey("CommenttId");
+
+                    b.HasIndex("ShowGroundID");
+
+                    b.HasIndex("UserrID");
+
+                    b.ToTable("Commentts");
+                });
+
             modelBuilder.Entity("etkinlikk.Models.District", b =>
                 {
                     b.Property<int>("DistrictID")
@@ -6380,6 +6411,32 @@ namespace etkinlikk.Migrations
                             GenderID = 3,
                             GenderName = "I don't wanna chose"
                         });
+                });
+
+            modelBuilder.Entity("etkinlikk.Models.Likee", b =>
+                {
+                    b.Property<int>("LikeeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LikeeID"), 1L, 1);
+
+                    b.Property<DateTime>("LikeeDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ShowGroundID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserrID")
+                        .HasColumnType("int");
+
+                    b.HasKey("LikeeID");
+
+                    b.HasIndex("ShowGroundID");
+
+                    b.HasIndex("UserrID");
+
+                    b.ToTable("Likees");
                 });
 
             modelBuilder.Entity("etkinlikk.Models.Rolee", b =>
@@ -24149,6 +24206,25 @@ namespace etkinlikk.Migrations
                         });
                 });
 
+            modelBuilder.Entity("etkinlikk.Models.Commentt", b =>
+                {
+                    b.HasOne("etkinlikk.Models.ShowGround", "ShowGround")
+                        .WithMany()
+                        .HasForeignKey("ShowGroundID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("etkinlikk.Models.Userr", "Userr")
+                        .WithMany()
+                        .HasForeignKey("UserrID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ShowGround");
+
+                    b.Navigation("Userr");
+                });
+
             modelBuilder.Entity("etkinlikk.Models.District", b =>
                 {
                     b.HasOne("etkinlikk.Models.City", "City")
@@ -24158,6 +24234,25 @@ namespace etkinlikk.Migrations
                         .IsRequired();
 
                     b.Navigation("City");
+                });
+
+            modelBuilder.Entity("etkinlikk.Models.Likee", b =>
+                {
+                    b.HasOne("etkinlikk.Models.ShowGround", "ShowGround")
+                        .WithMany()
+                        .HasForeignKey("ShowGroundID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("etkinlikk.Models.Userr", "Userr")
+                        .WithMany()
+                        .HasForeignKey("UserrID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ShowGround");
+
+                    b.Navigation("Userr");
                 });
 
             modelBuilder.Entity("etkinlikk.Models.ShowGround", b =>

@@ -16,7 +16,9 @@ namespace etkinlikk.Data
         public DbSet<District> Districts { get; set; }
         public DbSet<Userr> Userrs { get; set; }
         public DbSet<Rolee> Rolees { get; set; }
-
+        public DbSet<Likee> Likees { get; set; }
+        public DbSet<Commentt> Commentts { get; set; }
+        public DbSet<ShowGroundSubCategory> ShowGroundSubCategories { get; set; }
 
 
 
@@ -3335,6 +3337,6 @@ namespace etkinlikk.Data
 
 
 
-        public DbSet<ShowGroundSubCategory> ShowGroundSubCategories { get; set; }
+        
     }
 }

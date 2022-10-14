@@ -37,7 +37,7 @@
                                 {
                                     <li>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" value="https://localhost:7115?cat=@(category.CategoryID)" onclick="window.open(this.value,'_self')" name="category" id="Art" checked>
+                                            <input class="form-check-input" type="radio" value="https://localhost:7115?cat=@(category.CategoryID)" onclick="window.open(this.value,'_self')" name="category" id="Art" checked="checked">
                                             <label class="form-check-label" for="Art">@category.CategoryName</label>
                                         </div>
                                     </li>
@@ -310,7 +310,7 @@
                             <option value="https://localhost:7115?filter=descname">Sort By Name &#8593</option>
                             <option value="https://localhost:7115?filter=disname">Sort By District &#8595</option>
                             <option value="https://localhost:7115?filter=descdisname">Sort By District &#8593</option>
-                            
+
                         </select>
                     </div>
                     <div class="cs-form_field_wrap cs-select_arrow">
@@ -330,11 +330,27 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="cs-card cs-style4 cs-box_shadow cs-white_bg">
                             <span class="cs-card_like cs-primary_color">
-                                <i class="fas fa-heart fa-fw"></i>
-                                2.1K
+                                @if (Model.MyLikeesList.Select(a=>a.ShowGroundID).Contains(showGround.ShowGroundID))
+                                {
+                                    <form asp-controller="" asp-action="Unlike" asp-route-eid="@showGround.ShowGroundID">
+                                        <button style="border:none; background-color:white">
+                                            <i class="fas fa-heart fa-fw"></i>
+                                            2.1K
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-controller="" asp-action="Like" asp-route-eid="@showGround.ShowGroundID">
+                                        <button style="border:none;">
+                                            <i class="far fa-heart fa-fw"></i>
+                                            2.1K
+                                        </button>
+                                    </form>
+                                }
                             </span>
                             <a asp-controller="ShowGroundDetail" asp-action="Index" method="post" asp-route-id="@showGround.ShowGroundID" class="cs-card_thumb cs-zoom_effect">
-                                <img src="~/client/assets/img/explore/1.jpeg"  alt="Image" class="cs-zoom_item">
+                                <img src="~/client/assets/img/explore/1.jpeg" alt="Image" class="cs-zoom_item">
                             </a>
                             <div class="cs-card_info">
                                 <a href="#" class="cs-avatar cs-white_bg">

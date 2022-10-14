@@ -1,6 +1,7 @@
 ﻿using etkinlikk.Data;
 using etkinlikk.Models;
 using etkinlikk.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -19,6 +20,7 @@ namespace etkinlikk.Controllers
         }
         public async Task<IActionResult> Index(int? cat, int? subcat, int? cit, int? dis, string filter, string searching)
         {
+            int MyUserID = Convert.ToInt32(User.FindFirst(claim => claim.Type == System.Security.Claims.ClaimTypes.Sid)?.Value);
             HomeViewModel x = new();
             x.CategoryList = await _db.Categories.ToListAsync();
             x.SelectedSubCategory = await _db.SubCategories.FirstOrDefaultAsync(a => a.SubCategoryID == subcat);
@@ -32,7 +34,7 @@ namespace etkinlikk.Controllers
             x.SelectedCategoryID = cat;
             x.SelectedCityID = cit;
 
-            List<int> showgroundListBySubCategoryId = _db.ShowGroundSubCategories.Where(a => a.SubCategoryID == subcat || subcat == null).Select(a => a.ShowGroundID).ToList();
+            List<int> showgroundListBySubCategoryId = await _db.ShowGroundSubCategories.Where(a => a.SubCategoryID == subcat || subcat == null).Select(a => a.ShowGroundID).ToListAsync();
 
 
             x.ShowgroundsList = await _db.ShowGrounds.
@@ -42,10 +44,11 @@ namespace etkinlikk.Controllers
             Where(a => a.ShowGroundName.Contains(searching) || searching == null).
             OrderBy(a => filter == "name" ? a.ShowGroundName : filter == "dis" ? a.District.DistrictName : null).
             ThenByDescending(a => filter == "descname" ? a.ShowGroundName : filter == "descdisname" ? a.District.DistrictName : null).
-
+            
             Include(a => a.District).Take(12).ToListAsync();
 
-
+            
+            x.MyLikeesList = await _db.Likees.Where(a => a.UserrID == MyUserID).ToListAsync();
             return View(x);
         }
 
@@ -66,7 +69,35 @@ namespace etkinlikk.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+        [Authorize(Roles ="Member")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Like(int eid)
+        {
+            int MyUserID = Convert.ToInt32(User.FindFirst(claim => claim.Type == System.Security.Claims.ClaimTypes.Sid)?.Value);
+            Likee likee = new() { ShowGroundID = eid, UserrID = MyUserID, LikeeDate = DateTime.Now };
+            await _db.Likees.AddAsync(likee);
+            await _db.SaveChangesAsync();
+            return RedirectToAction("", "");
+        }
+
+        [Authorize(Roles = "Member")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Unlike(int eid)
+        {
+            int MyUserID = Convert.ToInt32(User.FindFirst(claim => claim.Type == System.Security.Claims.ClaimTypes.Sid)?.Value);
+            var x = await _db.Likees.FirstOrDefaultAsync(a => a.UserrID == MyUserID && a.ShowGroundID == eid);
+            _db.Likees.Remove(x);
+            await _db.SaveChangesAsync();
+            return RedirectToAction("", "");
+
+        }
+
     }
+
 
 
 }

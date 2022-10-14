@@ -92,7 +92,7 @@ namespace etkinlikk.Controllers
 
                     else if (userrr.Rolee.RoleeName == "Supervisor")
                     {
-                        return Redirect("~/AdminAnasayfa/Index");
+                        return Redirect("~/AdminHomePage/Index");
                     }
 
                     //else if (userrr.Rolee.RoleeName == "User Passive")    /*loginn olurken user passive ise zaten daha baştan yönlendirme yapıldığı için buna gerek kalmadı*/
@@ -131,7 +131,7 @@ namespace etkinlikk.Controllers
 
 
 
-        [Authorize(Roles = "Member")]
+        [Authorize(Roles = "Candidate")]
         public IActionResult EmailApproveReminder()
         {
 
