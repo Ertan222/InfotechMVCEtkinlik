@@ -22,19 +22,19 @@
                         <div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" style="width: 645px;">
                             <div>
                                 <div class="slider-item" style="width: 100%; display: inline-block;">
-                                    <div class="cs-slider_thumb_lg"><img src="../assets/img/explore_lg_1.jpeg" alt=""></div>
+                                    <div class="cs-slider_thumb_lg"><img src="~/ShowGroundİmages/1 (@Model.ShowGround.ShowGroundID).jpg" alt=""></div>
                                 </div>
                             </div>
                         </div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 645px;">
                             <div>
                                 <div class="slider-item" style="width: 100%; display: inline-block;">
-                                    <div class="cs-slider_thumb_lg"><img src="../assets/img/explore_lg_1.jpeg" alt=""></div>
+                                    <div class="cs-slider_thumb_lg"><img src="~/ShowGroundİmages/1 (@Model.ShowGround.ShowGroundID).jpg" alt=""></div>
                                 </div>
                             </div>
                         </div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 645px;">
                             <div>
                                 <div class="slider-item" style="width: 100%; display: inline-block;">
-                                    <div class="cs-slider_thumb_lg"><img src="../assets/img/explore_lg_1.jpeg" alt=""></div>
+                                    <div class="cs-slider_thumb_lg"><img src="~/ShowGroundİmages/1 (@Model.ShowGround.ShowGroundID).jpg" alt=""></div>
                                 </div>
                             </div>
                         </div><div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 645px;">
@@ -236,7 +236,7 @@
             <div class="cs-tabs cs-fade_tabs cs-style1">
                 <div class="cs-medium">
                     <ul class="cs-tab_links cs-style1 cs-medium cs-primary_color cs-mp0 cs-primary_font">
-                        <li class="active"><a href="#Description">Description</a></li>
+                        <li class="active"><a href="#Description">Address</a></li>
                         <li><a href="#Details">Comment</a></li>
                     </ul>
                 </div>
@@ -250,9 +250,15 @@
                     <div id="Details" class="cs-tab">
                         <div class="cs-white_bg cs-box_shadow cs-general_box_5">
                             <form asp-controller="ShowGroundDetail" asp-action="AddComment" asp-route-id="@Model.ShowGround.ShowGroundID" method="post">
-                                <textarea name="comment" cols="30" rows="5" placeholder="e. g. Item description" class="cs-form_field" style="height: 60px; resize:none;"></textarea>
-                                <button style="margin:auto;" type="submit">Submit</button>
+                                <div class="cs-form_field_wrap">
+                                    <textarea cols="20" name="comment" style="resize:none; margin:auto; padding:10px;" rows="2" placeholder="Your bio..." class="cs-form_field cs-white_bg"></textarea>
+                                </div>
+                                <button type="submit" style="margin:5px; " class="cs-btn cs-style1 cs-btn_lg"><span>Comment</span></button>
                             </form>
+
+                            
+              
+            
                         </div>
                     </div><!-- .cs-tab -->
                 </div>
@@ -301,7 +307,7 @@
 </div>
 <div class="cs-height_95 cs-height_lg_70"></div>
 <div class="container">
-    <h2 class="cs-section_heading cs-style1">Similar Items</h2>
+    <h2 class="cs-section_heading cs-style1">Similar Showgrounds</h2>
     <div class="cs-height_45 cs-height_lg_45"></div>
     <div class="cs-grid_5 cs-gap_30">
         @foreach (ShowGround showGround in Model.RelatedShowGroundList)

@@ -3,9 +3,7 @@ using etkinlikk.Models;
 using etkinlikk.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace etkinlikk.Controllers
