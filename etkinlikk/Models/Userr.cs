@@ -18,7 +18,7 @@ namespace etkinlikk.Models
 
 
 
-        [Required(ErrorMessage = "{0} must be filled"), Display(Name ="Password"),StringLength(20, MinimumLength = 6, ErrorMessage = "{0}, {2}{1} needs to be in range"),  DataType(DataType.Password)]
+        [Required(ErrorMessage = "{0} must be filled"), Display(Name ="Password"),StringLength(20, MinimumLength = 6, ErrorMessage = "{0}, {2} - {1} needs to be in range"),  DataType(DataType.Password)]
         public string Passwordd { get; set; }
 
         [NotMapped, Display(Name = "Password Repeat"), DataType(DataType.Password), Compare("Passwordd", ErrorMessage = "Password and Password Repeat aren't same")]
