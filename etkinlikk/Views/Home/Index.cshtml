@@ -333,7 +333,7 @@
                                 @if (Model.MyLikeesList.Select(a=>a.ShowGroundID).Contains(showGround.ShowGroundID))
                                 {
                                     <form asp-controller="" asp-action="Unlike" asp-route-eid="@showGround.ShowGroundID">
-                                        <button style="border:none; background-color:white">
+                                        <button style="border:none; background-color:transparent">
                                             <i class="fas fa-heart fa-fw"></i>
                                             2.1K
                                         </button>
@@ -342,8 +342,8 @@
                                 else
                                 {
                                     <form asp-controller="" asp-action="Like" asp-route-eid="@showGround.ShowGroundID">
-                                        <button style="border:none; background-color:azure;">
-                                            <i class="fas fa-heart=o fa-fw"></i>
+                                        <button style="border:none; background-color:transparent;">
+                                            <i class="far fa-heart=o fa-fw"></i>
                                             2.1K
                                         </button>
                                     </form>
